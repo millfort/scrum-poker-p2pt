@@ -7,10 +7,10 @@ import P2PT from "p2pt"
 const State = { INITIAL: 0, JOINING: 1, JOINED: 2 }
 const RoomState = { VOTING: 1, FINISH: 2 }
 const announceURLs = [
-  "wss://tracker.openwebtorrent.com",
-  "wss://tracker.sloppyta.co:443/announce",
-  "wss://tracker.novage.com.ua:443/announce",
-  "wss://tracker.btorrent.xyz:443/announce",
+  'wss://tracker.openwebtorrent.com',
+  'wss://tracker.webtorrent.dev',
+  'wss://tracker.files.fm:7073/announce',
+  'wss://tracker.btorrent.xyz/',
 ]
 const appName = 'millfort-scrum-poker-p2pt'
 const defaultName = 'Anonymous'
